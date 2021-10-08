@@ -1,0 +1,254 @@
+* { margin: 0; padding: 0; }
+body {
+  background-color: rgba(48, 46, 46, 0.74);
+  text-align: justify;
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif;
+  }
+.section {
+  float: left;
+  width: 25%;
+  text-align: justify;
+  overflow: auto;
+  padding: 3px;
+  border: rgba(48, 46, 46, 0.74) solid;
+  background-color:rgba(48, 46, 46, 0.74);
+}
+        .section .toledo {
+          text-align: center;
+        }
+                  .section .toledo #mun_br {
+                    background-color: mediumturquoise;
+                    padding: 2px;
+                    border: mediumturquoise solid;
+                  }
+        .section .simbolos {
+          text-align: center;
+        }
+                  .section .simbolos #bandeira {
+                    float: left;
+                  }
+                  .section .simbolos #brasao {
+                    float: right;
+                  }
+                  .section .simbolos #simbolos {
+                    float: left;
+                    width: 25%;
+                  }
+                  .section .simbolos #simbolos2 {
+                    float: right;
+                    width: 75%;
+                  }
+        .section .localizacao {
+          text-align: center;
+        }
+                  .section .localizacao #local {
+                    float: left;
+                    width: 25%;
+                  }
+                  .section .localizacao #local2 {
+                    float: right;
+                    width: 75%;
+                  }
+
+.article {
+  float: right;
+  width: 74%;
+  text-align: justify;
+}
+          .article .historia {
+            border: rgba(48, 46, 46, 0.74) solid;
+            background-color:rgba(48, 46, 46, 0.74);
+            padding: 10px;
+            overflow: auto;
+          }
+                        .article .historia #his {
+                          float: left;
+                          width: 20%;
+                        }
+                        .article .historia #his2 {
+                          float: right;
+                          width: 80%;
+                        }
+          .article .administracao{
+            border: rgba(48, 46, 46, 0.74) solid;
+            background-color:rgba(48, 46, 46, 0.74);
+            padding: 10px;
+            overflow: auto;
+          }
+                        .article .administracao #adm {
+                          float: left;
+                          width: 20%;
+                        }
+                        .article .administracao #adm2 {
+                          float: right;
+                          width: 80%;
+                        }
+          .article .cargeo {
+            border: rgba(48, 46, 46, 0.74) solid;
+            background-color:rgba(48, 46, 46, 0.74);
+            padding: 10px;
+            overflow: auto;
+          }
+                        .article .cargeo #car {
+                          float: left;
+                          width: 20%;
+                        }
+                        .article .cargeo #car2 {
+                          float: right;
+                          width: 80%;
+                        }
+          .article .indicadores {
+            border: rgba(48, 46, 46, 0.74) solid;
+            background-color:rgba(48, 46, 46, 0.74);
+            padding: 10px;
+            overflow: auto;
+          }
+                        .article .indicadores #ind {
+                          float: left;
+                          width: 20%;
+                        }
+                        .article .indicadores #ind2 {
+                          float: right;
+                          width: 80%;
+                        }
+          .article .outrasinf {
+            border: rgba(48, 46, 46, 0.74) solid;
+            background-color:rgba(48, 46, 46, 0.74);
+            padding: 10px;
+            overflow: auto;
+          }
+                        .article .outrasinf #outr {
+                          float: left;
+                          width: 30%;
+                        }
+                        .article .outrasinf #outr2 {
+                          float: right;
+                          width: 70%;
+                        }
+            .article .mapa_interativo {
+              border: rgba(48, 46, 46, 0.74) solid;
+              background-color:rgba(48, 46, 46, 0.74);
+              padding: 10px;
+              overflow: auto;
+              text-align: center;
+            }
+            .section2 {
+              float: left;
+              width: 38%;
+              height: 100%;
+              overflow: auto;
+              padding: 10px;
+              border: rgba(48, 46, 46, 0.74) solid;
+              background-color:rgba(48, 46, 46, 0.74);
+              text-align: center;
+            }
+            .article2 {
+              float: right;
+              width: 62%;
+              height: 100%;
+              text-align: center;
+              border: rgba(48, 46, 46, 0.74) solid;
+              background-color:rgba(48, 46, 46, 0.74);
+              padding: 10px;
+              overflow: auto;
+            }
+            #litabimg {
+              background-color: rgba(185, 77, 77, 0.623);
+              color: rgb(7, 7, 7);
+              font-family: 'Times New Roman', Times, serif;
+          }
+          #imgs {
+              text-align: justify;
+              margin-left: 23%;
+              margin-top: 10px;
+              width:100px;
+          }
+          #tab {
+              text-align: justify;
+              margin-left: 5%;
+              margin-top: 5%;
+              color: white;
+              width: 90%;
+              background-color: #72a3af;
+              border-color: black;
+              border-style: groove;
+          }
+          #listmun {
+              text-align: justify;
+              margin-left: 5%;
+              margin-top: 5%;
+          }
+          #vita {
+              text-align: justify;
+              margin-left: 50%;
+              margin-right: 5%;
+              margin-top: -17.6%;
+          }
+          body {
+              background-color: rgba(48, 46, 46, 0.74);
+              text-align: center;
+              color: aliceblue;
+              font-family: 'Times New Roman', Times, serif;
+            }
+          #base {
+              text-align: justify;
+              margin-left: 46%;
+              font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+              font-size: larger;
+          }
+          #dados {
+              text-align: justify;
+              margin-left: 570px;
+              margin-top: 20px;
+          }
+          #foto {
+              text-align: right;
+              margin-left: 280px;
+              margin-top: -170px;
+              width:800px;
+          }
+          #obj {
+              text-align: center;
+              margin-left: 350px;
+              width:800px;
+          }
+          
+          #exp_left {
+              text-align: left;
+              position: absolute;
+              margin-left: 90px;
+              margin-top: 10px;
+              width:300px;
+              height:50px;
+          }
+          #exp_right {
+              text-align: justify;
+              margin-left: 400px;
+              margin-right: 100px;
+              margin-top: -30px;
+              width:1000px;
+              height:150px;
+          }
+          #exp_left2 {
+              text-align: left;
+              position: absolute;
+              margin-left: 90px;
+              margin-top: 10px;
+              width:300px;
+              height:10px;
+          }
+          #exp_right2 {
+              text-align: justify;
+              margin-left: 400px;
+              margin-right: 100px;
+              margin-top: -30px;
+              width:1000px;
+              height:110px;
+          }
+          #inf {
+              text-align: justify;
+              margin-left: 500px;
+              width:1000px;
+              height:100px;
+          }
