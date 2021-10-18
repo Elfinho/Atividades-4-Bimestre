@@ -1,18 +1,108 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>INTRODUÇÃO AO JAVASCRIPT</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div class="d-flex bd-highlight" id="robertinho">
+        <div id="list-example" class="list-group p-2 w-100 bd-highlight overflow-auto">
+            <a class="list-group-item list-group-item-action" href="#list-item-1">INTRODUÇÃO AO JAVASCRIPT</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">História</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Declarando Variáveis</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">Declarando Funções</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">Estruturas de controle</a>
+            <br><a><center>
+                <img src="https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png">
+            </center></a>
+        </div>
+        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example p-2 flex-shrink-1 bd-highlight overflow-auto" tabindex="0">
+            <h4 id="list-item-1">INTRODUÇÃO AO JAVASCRIPT</h4>
+            <p class="text-break">
+                JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web 
+                toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática 
+                mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc. 
+                Você pode apostar que o JavaScript provavelmente está envolvido.
+                É a terceira camada do bolo das tecnologias padrões da web, HTML e CSS.
+            </p>
 
-<head>
-<title>Mozilla CSS Getting Started - JavaScript demonstration</title>
-<link rel="stylesheet" type="text/css" href="style.css" />
-<script type="text/javascript" src="script.js"></script>
-</head>
+            <h4 id="list-item-2">História</h4>
+            <p class="text-break ">
+                Criada por Brendan Eich, a pedido da empresa Netscape, em meados de 1995. No início, 
+                o JavaScript foi batizado com outro nome: LiveScript. No entanto, a Netscape não ficou sozinha com o 
+                desenvolvimento do JavaScript. A empresa SUN Microsystems interessou-se por ela e entrou de cabeça no 
+                desenvolvimento desta nova linguagem, uma vez que acreditava na ideia inovadora que era o JavaScript.
+            </p>
 
-<body>
-<h1>JavaScript sample</h1>
+            <h4 id="list-item-3">Declarando Variáveis</h4>
+            <button type="button" class="btn btn-secondary">
+                var nome;<br>
+                nome = Fulano de Tal;<br>
+                var idade = 30;<br>
+                idade = 30 + 20 - 10*5;
+            </button>
 
-<div id="square"></div>
+            <p class="text-break">
+                Essa linguagem possui tipagem dinâmica, ou seja, não é necessário definir o tipo das variáveis 
+                ao declará-las, para isso basta usar a palavra reservada var. Na Listagem 3 temos alguns exemplos 
+                de utilização de variáveis.
+            </p>
 
-<button type="button" onclick="doDemo(this);">Click Me</button>
+            <h4 id="list-item-4">Declarando Funções</h4>
+            <button type="button" class="btn btn-secondary">
+                function exibirMensagem()<br>
+                {<br>
+                alert(“Olá, seja bem vindo(a)!”);<br>
+                }<br>
+            </button>
 
-</body>
+            <p class="text-break">
+                Função em JavaScript sem parâmetro e sem retorno.
+            </p>
+
+            <button type="button" class="btn btn-secondary">
+                function somar(A, B)<br>
+                {<br>
+                return A + B;<br>
+                }
+            </button>
+
+            <p class="text-break">
+                Função em JavaScript com parâmetro e com retorno.
+            </p>
+            <p class="text-break">
+                JavaScript fornece também suporte a funções, aliado às facilidades da tipagem dinâmica, 
+                 que torna a definição de métodos simples e prática. Para criar funções, utilizamos a palavra 
+                 reservada function.
+    
+                As funções podem receber parâmetros e retornar valores, mas o tipo de retorno e o 
+                tipo dos parâmetros não precisa ser previamente definido. Nas Listagens 4 e 5temos exemplos 
+                de funções com e sem parâmetros e retorno.
+            </p>
+
+            <h4 id="list-item-5">Estruturas de controle</h4>
+            <button type="button" class="btn btn-secondary">
+                if(condição 1)<br>
+                {<br>
+                  //ação se condição 1 verdadeira<br>
+                }<br>
+                else if (condição 2)<br>
+                {<br>
+                  //ação se condição 2 verdadeira<br>
+                }<br>
+                else<br>
+                {<br>
+                  //ação se nenhuma das condições for verdadeira<br>
+                }
+            </button>
+
+            <p class="text-break">    
+                Assim como a maioria das linguagens de alto nível, JavaScript possui estruturas 
+                condicionais e de repetição para controle de fluxo.
+            </p>
+        </div>
+        </div>
+    </body>
 </html>
